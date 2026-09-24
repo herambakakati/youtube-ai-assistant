@@ -3,12 +3,9 @@ import re
 import io
 import base64
 from urllib.parse import urlparse, parse_qs
-
 import streamlit as st
 from dotenv import load_dotenv
-
 from youtube_transcript_api import YouTubeTranscriptApi
-
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER
 from reportlab.lib.pagesizes import A4
@@ -30,7 +27,6 @@ from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_community.vectorstores import Chroma
-
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
