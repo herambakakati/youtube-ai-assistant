@@ -1,0 +1,11 @@
+streamlit
+python-dotenv
+youtube-transcript-api
+langchain-core
+langchain-text-splitters
+langchain-openai
+langchain-community
+chromadb
+openai
+reportlab
+python-pptx>=1.0.2
