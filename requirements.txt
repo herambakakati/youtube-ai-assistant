@@ -8,5 +8,6 @@ langchain-openai
 langchain-community
 chromadb
 openai
+pypdf
 reportlab
 python-pptx>=1.0.2
